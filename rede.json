@@ -1,0 +1,7 @@
+[
+  { "codigo": "AE197", "plano": "ADVANCE 600", "status": "ATIVO" },
+  { "codigo": "AE260", "plano": "ADVANCE 650", "status": "ATIVO" },
+  { "codigo": "AE382", "plano": "ADVANCE 700", "status": "ATIVO" },
+  { "codigo": "SP1207", "plano": "ADVANCE 600", "status": "ATIVO" },
+  { "codigo": "SP1156", "plano": "ADVANCE 650", "status": "ATIVO" }
+]
