@@ -136,5 +136,16 @@ function buscarPlanos() {
         Desenvolvido por <strong>Thamara Marques</strong>
 </footer>
 </div>
+    <script>
+  document.querySelectorAll("#tabelaPlanos tbody tr").forEach(tr => {
+    const codigo = tr.children[0].innerText.trim();
+    const plano = tr.children[1].innerText.trim();
+
+    if (!plano.includes(`(${codigo})`)) {
+      tr.children[1].innerText = `${plano} (${codigo})`;
+    }
+  });
+</script>
 </body>
 </html>
+
